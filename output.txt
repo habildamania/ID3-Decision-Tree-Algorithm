@@ -1,0 +1,917 @@
+OUTPUT: 
+The following output was obtained on calling the prune_tree function with the following node ids:
+The output accuracy may vary on every execution since the dataset is divided randomly into training and testing on calling the train_test_split method 
+t_pruned = prune_tree(t, [1579,791,219,26,54])
+Accuracy before prunning was 0.83 and after prunning 0.86
+
+***********************************************************************************************************************************************
+
+Habils-MacBook-Pro:Desktop Habil$ python driver.py
+Is A9 == t? Node id 0 Node Depth 0
+--> True:
+  Is A15 >= 444? Node id 2 Node Depth 1
+  --> True:
+    Is A14 == 00167? Node id 6 Node Depth 2
+    --> True:
+      Predict - Leafnode id 14 Leafnode Depth 3
+    --> False:
+      Is A14 == 00252? Node id 13 Node Depth 3
+      --> True:
+        Predict - Leafnode id 28 Leafnode Depth 4
+      --> False:
+        Is A2 == 22.50? Node id 27 Node Depth 4
+        --> True:
+          Predict - Leafnode id 56 Leafnode Depth 5
+        --> False:
+          Predict + Leafnode id 55 Leafnode Depth 5
+  --> False:
+    Is A10 == f? Node id 5 Node Depth 2
+    --> True:
+      Is A3 >= 0.375? Node id 12 Node Depth 3
+      --> True:
+        Is A3 >= 2.5? Node id 26 Node Depth 4
+        --> True:
+          Is A6 == i? Node id 54 Node Depth 5
+          --> True:
+            Predict - Leafnode id 110 Leafnode Depth 6
+          --> False:
+            Is A14 == 00100? Node id 109 Node Depth 6
+            --> True:
+              Predict + Leafnode id 220 Leafnode Depth 7
+            --> False:
+              Is A6 == d? Node id 219 Node Depth 7
+              --> True:
+                Predict - Leafnode id 440 Leafnode Depth 8
+              --> False:
+                Is A14 == 00140? Node id 439 Node Depth 8
+                --> True:
+                  Predict - Leafnode id 880 Leafnode Depth 9
+                --> False:
+                  Is A2 == 35.25? Node id 879 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1760 Leafnode Depth 10
+                  --> False:
+                    Is A7 == h? Node id 1759 Node Depth 10
+                    --> True:
+                      Is A14 == 00112? Node id 3520 Node Depth 11
+                      --> True:
+                        Predict - Leafnode id 7042 Leafnode Depth 12
+                      --> False:
+                        Predict + Leafnode id 7041 Leafnode Depth 12
+                    --> False:
+                      Is A14 == 00160? Node id 3519 Node Depth 11
+                      --> True:
+                        Predict + Leafnode id 7040 Leafnode Depth 12
+                      --> False:
+                        Is A7 == bb? Node id 7039 Node Depth 12
+                        --> True:
+                          Predict - Leafnode id 14080 Leafnode Depth 13
+                        --> False:
+                          Is A13 == g? Node id 14079 Node Depth 13
+                          --> True:
+                            Is A14 == 00120? Node id 28160 Node Depth 14
+                            --> True:
+                              Predict - Leafnode id 56322 Leafnode Depth 15
+                            --> False:
+                              Is A8 >= 0.54? Node id 56321 Node Depth 15
+                              --> True:
+                                Is A3 >= 6.0? Node id 112644 Node Depth 16
+                                --> True:
+                                  Is A3 >= 11.0? Node id 225290 Node Depth 17
+                                  --> True:
+                                    Predict - Leafnode id 450582 Leafnode Depth 18
+                                  --> False:
+                                    Predict + Leafnode id 450581 Leafnode Depth 18
+                                --> False:
+                                  Is A14 == 00070? Node id 225289 Node Depth 17
+                                  --> True:
+                                    Predict + Leafnode id 450580 Leafnode Depth 18
+                                  --> False:
+                                    Is A14 == 00360? Node id 450579 Node Depth 18
+                                    --> True:
+                                      Predict + Leafnode id 901160 Leafnode Depth 19
+                                    --> False:
+                                      Predict - Leafnode id 901159 Leafnode Depth 19
+                              --> False:
+                                Is A3 >= 6.5? Node id 112643 Node Depth 16
+                                --> True:
+                                  Is A14 == 00000? Node id 225288 Node Depth 17
+                                  --> True:
+                                    Is A5 == p? Node id 450578 Node Depth 18
+                                    --> True:
+                                      Predict - Leafnode id 901158 Leafnode Depth 19
+                                    --> False:
+                                      Predict + Leafnode id 901157 Leafnode Depth 19
+                                  --> False:
+                                    Predict - Leafnode id 450577 Leafnode Depth 18
+                                --> False:
+                                  Predict + Leafnode id 225287 Leafnode Depth 17
+                          --> False:
+                            Predict + Leafnode id 28159 Leafnode Depth 14
+        --> False:
+          Is A14 == 00260? Node id 53 Node Depth 5
+          --> True:
+            Predict + Leafnode id 108 Leafnode Depth 6
+          --> False:
+            Is A2 == 25.75? Node id 107 Node Depth 6
+            --> True:
+              Predict + Leafnode id 216 Leafnode Depth 7
+            --> False:
+              Is A15 >= 200? Node id 215 Node Depth 7
+              --> True:
+                Is A12 == t? Node id 432 Node Depth 8
+                --> True:
+                  Is A8 >= 2.25? Node id 866 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1734 Leafnode Depth 10
+                  --> False:
+                    Predict - Leafnode id 1733 Leafnode Depth 10
+                --> False:
+                  Predict + Leafnode id 865 Leafnode Depth 9
+              --> False:
+                Is A14 == 00300? Node id 431 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 864 Leafnode Depth 9
+                --> False:
+                  Is A14 == 00393? Node id 863 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1728 Leafnode Depth 10
+                  --> False:
+                    Is A2 == 26.00? Node id 1727 Node Depth 10
+                    --> True:
+                      Predict + Leafnode id 3456 Leafnode Depth 11
+                    --> False:
+                      Is A2 == 44.33? Node id 3455 Node Depth 11
+                      --> True:
+                        Predict + Leafnode id 6912 Leafnode Depth 12
+                      --> False:
+                        Predict - Leafnode id 6911 Leafnode Depth 12
+      --> False:
+        Predict + Leafnode id 25 Leafnode Depth 4
+    --> False:
+      Is A14 == 00180? Node id 11 Node Depth 3
+      --> True:
+        Predict - Leafnode id 24 Leafnode Depth 4
+      --> False:
+        Is A8 >= 1.46? Node id 23 Node Depth 4
+        --> True:
+          Is A12 == t? Node id 48 Node Depth 5
+          --> True:
+            Is A6 == k? Node id 98 Node Depth 6
+            --> True:
+              Is A15 >= 5? Node id 198 Node Depth 7
+              --> True:
+                Predict - Leafnode id 398 Leafnode Depth 8
+              --> False:
+                Predict + Leafnode id 397 Leafnode Depth 8
+            --> False:
+              Is A14 == 00300? Node id 197 Node Depth 7
+              --> True:
+                Predict - Leafnode id 396 Leafnode Depth 8
+              --> False:
+                Is A3 >= 4.04? Node id 395 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 792 Leafnode Depth 9
+                --> False:
+                  Is A3 >= 3.5? Node id 791 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1584 Leafnode Depth 10
+                  --> False:
+                    Is A14 == 00208? Node id 1583 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3168 Leafnode Depth 11
+                    --> False:
+                      Predict + Leafnode id 3167 Leafnode Depth 11
+          --> False:
+            Predict + Leafnode id 97 Leafnode Depth 6
+        --> False:
+          Is A8 >= 1.29? Node id 47 Node Depth 5
+          --> True:
+            Predict - Leafnode id 96 Leafnode Depth 6
+          --> False:
+            Is A3 >= 19.0? Node id 95 Node Depth 6
+            --> True:
+              Predict - Leafnode id 192 Leafnode Depth 7
+            --> False:
+              Is A7 == bb? Node id 191 Node Depth 7
+              --> True:
+                Is A14 == 00080? Node id 384 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 770 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 769 Leafnode Depth 9
+              --> False:
+                Is A14 == 00152? Node id 383 Node Depth 8
+                --> True:
+                  Predict - Leafnode id 768 Leafnode Depth 9
+                --> False:
+                  Is A2 == 18.67? Node id 767 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1536 Leafnode Depth 10
+                  --> False:
+                    Is A2 == 19.75? Node id 1535 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3072 Leafnode Depth 11
+                    --> False:
+                      Is A14 == 00160? Node id 3071 Node Depth 11
+                      --> True:
+                        Is A15 >= 1? Node id 6144 Node Depth 12
+                        --> True:
+                          Predict + Leafnode id 12290 Leafnode Depth 13
+                        --> False:
+                          Predict - Leafnode id 12289 Leafnode Depth 13
+                      --> False:
+                        Predict + Leafnode id 6143 Leafnode Depth 12
+--> False:
+  Is A3 >= 0.17? Node id 1 Node Depth 1
+  --> True:
+    Is A5 == gg? Node id 4 Node Depth 2
+    --> True:
+      Predict + Leafnode id 10 Leafnode Depth 3
+    --> False:
+      Is A14 == 00290? Node id 9 Node Depth 3
+      --> True:
+        Predict + Leafnode id 20 Leafnode Depth 4
+      --> False:
+        Is A14 == 00431? Node id 19 Node Depth 4
+        --> True:
+          Predict + Leafnode id 40 Leafnode Depth 5
+        --> False:
+          Is A6 == x? Node id 39 Node Depth 5
+          --> True:
+            Is A8 >= 2.46? Node id 80 Node Depth 6
+            --> True:
+              Predict + Leafnode id 162 Leafnode Depth 7
+            --> False:
+              Predict - Leafnode id 161 Leafnode Depth 7
+          --> False:
+            Is A2 == 41.50? Node id 79 Node Depth 6
+            --> True:
+              Predict + Leafnode id 160 Leafnode Depth 7
+            --> False:
+              Is A2 == 21.25? Node id 159 Node Depth 7
+              --> True:
+                Predict + Leafnode id 320 Leafnode Depth 8
+              --> False:
+                Is A14 == 00128? Node id 319 Node Depth 8
+                --> True:
+                  Is A15 >= 6? Node id 640 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1282 Leafnode Depth 10
+                  --> False:
+                    Predict + Leafnode id 1281 Leafnode Depth 10
+                --> False:
+                  Is A2 == 48.08? Node id 639 Node Depth 9
+                  --> True:
+                    Is A15 >= 2690? Node id 1280 Node Depth 10
+                    --> True:
+                      Predict + Leafnode id 2562 Leafnode Depth 11
+                    --> False:
+                      Predict - Leafnode id 2561 Leafnode Depth 11
+                  --> False:
+                    Is A2 == 23.92? Node id 1279 Node Depth 10
+                    --> True:
+                      Is A15 >= 1? Node id 2560 Node Depth 11
+                      --> True:
+                        Predict - Leafnode id 5122 Leafnode Depth 12
+                      --> False:
+                        Predict + Leafnode id 5121 Leafnode Depth 12
+                    --> False:
+                      Is A2 == 33.67? Node id 2559 Node Depth 11
+                      --> True:
+                        Is A15 >= 44? Node id 5120 Node Depth 12
+                        --> True:
+                          Predict + Leafnode id 10242 Leafnode Depth 13
+                        --> False:
+                          Predict - Leafnode id 10241 Leafnode Depth 13
+                      --> False:
+                        Predict - Leafnode id 5119 Leafnode Depth 12
+  --> False:
+    Is A7 == ff? Node id 3 Node Depth 2
+    --> True:
+      Predict - Leafnode id 8 Leafnode Depth 3
+    --> False:
+      Is A7 == v? Node id 7 Node Depth 3
+      --> True:
+        Is A14 == 00232? Node id 16 Node Depth 4
+        --> True:
+          Predict + Leafnode id 34 Leafnode Depth 5
+        --> False:
+          Is A14 == 00560? Node id 33 Node Depth 5
+          --> True:
+            Predict + Leafnode id 68 Leafnode Depth 6
+          --> False:
+            Is A14 == 00240? Node id 67 Node Depth 6
+            --> True:
+              Predict + Leafnode id 136 Leafnode Depth 7
+            --> False:
+              Is A2 == 16.17? Node id 135 Node Depth 7
+              --> True:
+                Predict + Leafnode id 272 Leafnode Depth 8
+              --> False:
+                Predict - Leafnode id 271 Leafnode Depth 8
+      --> False:
+        Is A2 == 20.42? Node id 15 Node Depth 4
+        --> True:
+          Predict - Leafnode id 32 Leafnode Depth 5
+        --> False:
+          Is A2 == 34.58? Node id 31 Node Depth 5
+          --> True:
+            Predict - Leafnode id 64 Leafnode Depth 6
+          --> False:
+            Predict + Leafnode id 63 Leafnode Depth 6
+********** Leaf nodes ****************
+id = 14 depth =3
+id = 28 depth =4
+id = 56 depth =5
+id = 55 depth =5
+id = 110 depth =6
+id = 220 depth =7
+id = 440 depth =8
+id = 880 depth =9
+id = 1760 depth =10
+id = 7042 depth =12
+id = 7041 depth =12
+id = 7040 depth =12
+id = 14080 depth =13
+id = 56322 depth =15
+id = 450582 depth =18
+id = 450581 depth =18
+id = 450580 depth =18
+id = 901160 depth =19
+id = 901159 depth =19
+id = 901158 depth =19
+id = 901157 depth =19
+id = 450577 depth =18
+id = 225287 depth =17
+id = 28159 depth =14
+id = 108 depth =6
+id = 216 depth =7
+id = 1734 depth =10
+id = 1733 depth =10
+id = 865 depth =9
+id = 864 depth =9
+id = 1728 depth =10
+id = 3456 depth =11
+id = 6912 depth =12
+id = 6911 depth =12
+id = 25 depth =4
+id = 24 depth =4
+id = 398 depth =8
+id = 397 depth =8
+id = 396 depth =8
+id = 792 depth =9
+id = 1584 depth =10
+id = 3168 depth =11
+id = 3167 depth =11
+id = 97 depth =6
+id = 96 depth =6
+id = 192 depth =7
+id = 770 depth =9
+id = 769 depth =9
+id = 768 depth =9
+id = 1536 depth =10
+id = 3072 depth =11
+id = 12290 depth =13
+id = 12289 depth =13
+id = 6143 depth =12
+id = 10 depth =3
+id = 20 depth =4
+id = 40 depth =5
+id = 162 depth =7
+id = 161 depth =7
+id = 160 depth =7
+id = 320 depth =8
+id = 1282 depth =10
+id = 1281 depth =10
+id = 2562 depth =11
+id = 2561 depth =11
+id = 5122 depth =12
+id = 5121 depth =12
+id = 10242 depth =13
+id = 10241 depth =13
+id = 5119 depth =12
+id = 8 depth =3
+id = 34 depth =5
+id = 68 depth =6
+id = 136 depth =7
+id = 272 depth =8
+id = 271 depth =8
+id = 32 depth =5
+id = 64 depth =6
+id = 63 depth =6
+********** Non-leaf nodes ****************
+id = 0 depth =0
+id = 2 depth =1
+id = 6 depth =2
+id = 13 depth =3
+id = 27 depth =4
+id = 5 depth =2
+id = 12 depth =3
+id = 26 depth =4
+id = 54 depth =5
+id = 109 depth =6
+id = 219 depth =7
+id = 439 depth =8
+id = 879 depth =9
+id = 1759 depth =10
+id = 3520 depth =11
+id = 3519 depth =11
+id = 7039 depth =12
+id = 14079 depth =13
+id = 28160 depth =14
+id = 56321 depth =15
+id = 112644 depth =16
+id = 225290 depth =17
+id = 225289 depth =17
+id = 450579 depth =18
+id = 112643 depth =16
+id = 225288 depth =17
+id = 450578 depth =18
+id = 53 depth =5
+id = 107 depth =6
+id = 215 depth =7
+id = 432 depth =8
+id = 866 depth =9
+id = 431 depth =8
+id = 863 depth =9
+id = 1727 depth =10
+id = 3455 depth =11
+id = 11 depth =3
+id = 23 depth =4
+id = 48 depth =5
+id = 98 depth =6
+id = 198 depth =7
+id = 197 depth =7
+id = 395 depth =8
+id = 791 depth =9
+id = 1583 depth =10
+id = 47 depth =5
+id = 95 depth =6
+id = 191 depth =7
+id = 384 depth =8
+id = 383 depth =8
+id = 767 depth =9
+id = 1535 depth =10
+id = 3071 depth =11
+id = 6144 depth =12
+id = 1 depth =1
+id = 4 depth =2
+id = 9 depth =3
+id = 19 depth =4
+id = 39 depth =5
+id = 80 depth =6
+id = 79 depth =6
+id = 159 depth =7
+id = 319 depth =8
+id = 640 depth =9
+id = 639 depth =9
+id = 1280 depth =10
+id = 1279 depth =10
+id = 2560 depth =11
+id = 2559 depth =11
+id = 5120 depth =12
+id = 3 depth =2
+id = 7 depth =3
+id = 16 depth =4
+id = 33 depth =5
+id = 67 depth =6
+id = 135 depth =7
+id = 15 depth =4
+id = 31 depth =5
+*************Tree before pruning*******
+Is A9 == t? Node id 0 Node Depth 0
+--> True:
+  Is A15 >= 444? Node id 2 Node Depth 1
+  --> True:
+    Is A14 == 00167? Node id 6 Node Depth 2
+    --> True:
+      Predict - Leafnode id 14 Leafnode Depth 3
+    --> False:
+      Is A14 == 00252? Node id 13 Node Depth 3
+      --> True:
+        Predict - Leafnode id 28 Leafnode Depth 4
+      --> False:
+        Is A2 == 22.50? Node id 27 Node Depth 4
+        --> True:
+          Predict - Leafnode id 56 Leafnode Depth 5
+        --> False:
+          Predict + Leafnode id 55 Leafnode Depth 5
+  --> False:
+    Is A10 == f? Node id 5 Node Depth 2
+    --> True:
+      Is A3 >= 2.54? Node id 12 Node Depth 3
+      --> True:
+        Is A7 == bb? Node id 26 Node Depth 4
+        --> True:
+          Predict - Leafnode id 54 Leafnode Depth 5
+        --> False:
+          Is A2 == 21.50? Node id 53 Node Depth 5
+          --> True:
+            Predict - Leafnode id 108 Leafnode Depth 6
+          --> False:
+            Is A5 == p? Node id 107 Node Depth 6
+            --> True:
+              Is A3 >= 10.415? Node id 216 Node Depth 7
+              --> True:
+                Is A14 == 00160? Node id 434 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 870 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 869 Leafnode Depth 9
+              --> False:
+                Predict + Leafnode id 433 Leafnode Depth 8
+            --> False:
+              Is A6 == w? Node id 215 Node Depth 7
+              --> True:
+                Is A14 == 00280? Node id 432 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 866 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 865 Leafnode Depth 9
+              --> False:
+                Is A3 >= 6.0? Node id 431 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 864 Leafnode Depth 9
+                --> False:
+                  Is A8 >= 0.54? Node id 863 Node Depth 9
+                  --> True:
+                    Is A8 >= 2.5? Node id 1728 Node Depth 10
+                    --> True:
+                      Is A14 == 00980? Node id 3458 Node Depth 11
+                      --> True:
+                        Predict - Leafnode id 6918 Leafnode Depth 12
+                      --> False:
+                        Predict + Leafnode id 6917 Leafnode Depth 12
+                    --> False:
+                      Predict - Leafnode id 3457 Leafnode Depth 11
+                  --> False:
+                    Predict + Leafnode id 1727 Leafnode Depth 10
+      --> False:
+        Is A3 >= 0.5? Node id 25 Node Depth 4
+        --> True:
+          Is A14 == 00260? Node id 52 Node Depth 5
+          --> True:
+            Predict + Leafnode id 106 Leafnode Depth 6
+          --> False:
+            Is A2 == 25.75? Node id 105 Node Depth 6
+            --> True:
+              Predict + Leafnode id 212 Leafnode Depth 7
+            --> False:
+              Is A8 >= 0.835? Node id 211 Node Depth 7
+              --> True:
+                Is A3 >= 1.375? Node id 424 Node Depth 8
+                --> True:
+                  Is A14 == 00422? Node id 850 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1702 Leafnode Depth 10
+                  --> False:
+                    Predict - Leafnode id 1701 Leafnode Depth 10
+                --> False:
+                  Is A14 == 00400? Node id 849 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1700 Leafnode Depth 10
+                  --> False:
+                    Is A2 == ?? Node id 1699 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3400 Leafnode Depth 11
+                    --> False:
+                      Predict + Leafnode id 3399 Leafnode Depth 11
+              --> False:
+                Is A14 == 00393? Node id 423 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 848 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 847 Leafnode Depth 9
+        --> False:
+          Predict + Leafnode id 51 Leafnode Depth 5
+    --> False:
+      Is A3 >= 1.415? Node id 11 Node Depth 3
+      --> True:
+        Is A14 == 00300? Node id 24 Node Depth 4
+        --> True:
+          Predict - Leafnode id 50 Leafnode Depth 5
+        --> False:
+          Is A8 >= 0.04? Node id 49 Node Depth 5
+          --> True:
+            Is A11 >= 4? Node id 100 Node Depth 6
+            --> True:
+              Predict + Leafnode id 202 Leafnode Depth 7
+            --> False:
+              Is A11 >= 2? Node id 201 Node Depth 7
+              --> True:
+                Is A3 >= 3.5? Node id 404 Node Depth 8
+                --> True:
+                  Is A3 >= 4.5? Node id 810 Node Depth 9
+                  --> True:
+                    Is A15 >= 38? Node id 1622 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3246 Leafnode Depth 11
+                    --> False:
+                      Is A6 == k? Node id 3245 Node Depth 11
+                      --> True:
+                        Predict - Leafnode id 6492 Leafnode Depth 12
+                      --> False:
+                        Predict + Leafnode id 6491 Leafnode Depth 12
+                  --> False:
+                    Predict - Leafnode id 1621 Leafnode Depth 10
+                --> False:
+                  Predict + Leafnode id 809 Leafnode Depth 9
+              --> False:
+                Predict + Leafnode id 403 Leafnode Depth 8
+          --> False:
+            Is A14 == 00000? Node id 99 Node Depth 6
+            --> True:
+              Predict + Leafnode id 200 Leafnode Depth 7
+            --> False:
+              Predict - Leafnode id 199 Leafnode Depth 7
+      --> False:
+        Is A3 >= 1.04? Node id 23 Node Depth 4
+        --> True:
+          Predict - Leafnode id 48 Leafnode Depth 5
+        --> False:
+          Is A12 == f? Node id 47 Node Depth 5
+          --> True:
+            Predict + Leafnode id 96 Leafnode Depth 6
+          --> False:
+            Is A8 >= 1.46? Node id 95 Node Depth 6
+            --> True:
+              Is A14 == 00208? Node id 192 Node Depth 7
+              --> True:
+                Predict - Leafnode id 386 Leafnode Depth 8
+              --> False:
+                Predict + Leafnode id 385 Leafnode Depth 8
+            --> False:
+              Is A15 >= 6? Node id 191 Node Depth 7
+              --> True:
+                Predict + Leafnode id 384 Leafnode Depth 8
+              --> False:
+                Predict - Leafnode id 383 Leafnode Depth 8
+--> False:
+  Is A3 >= 0.17? Node id 1 Node Depth 1
+  --> True:
+    Is A5 == gg? Node id 4 Node Depth 2
+    --> True:
+      Predict + Leafnode id 10 Leafnode Depth 3
+    --> False:
+      Is A6 == x? Node id 9 Node Depth 3
+      --> True:
+        Is A8 >= 2.46? Node id 20 Node Depth 4
+        --> True:
+          Predict + Leafnode id 42 Leafnode Depth 5
+        --> False:
+          Predict - Leafnode id 41 Leafnode Depth 5
+      --> False:
+        Is A14 == 00150? Node id 19 Node Depth 4
+        --> True:
+          Predict + Leafnode id 40 Leafnode Depth 5
+        --> False:
+          Is A14 == 00290? Node id 39 Node Depth 5
+          --> True:
+            Predict + Leafnode id 80 Leafnode Depth 6
+          --> False:
+            Is A2 == 41.50? Node id 79 Node Depth 6
+            --> True:
+              Predict + Leafnode id 160 Leafnode Depth 7
+            --> False:
+              Is A2 == 48.08? Node id 159 Node Depth 7
+              --> True:
+                Is A15 >= 2690? Node id 320 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 642 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 641 Leafnode Depth 9
+              --> False:
+                Is A2 == 33.67? Node id 319 Node Depth 8
+                --> True:
+                  Is A15 >= 44? Node id 640 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1282 Leafnode Depth 10
+                  --> False:
+                    Predict - Leafnode id 1281 Leafnode Depth 10
+                --> False:
+                  Predict - Leafnode id 639 Leafnode Depth 9
+  --> False:
+    Is A7 == ff? Node id 3 Node Depth 2
+    --> True:
+      Predict - Leafnode id 8 Leafnode Depth 3
+    --> False:
+      Is A7 == v? Node id 7 Node Depth 3
+      --> True:
+        Is A15 >= 113? Node id 16 Node Depth 4
+        --> True:
+          Is A14 == 00140? Node id 34 Node Depth 5
+          --> True:
+            Predict - Leafnode id 70 Leafnode Depth 6
+          --> False:
+            Predict + Leafnode id 69 Leafnode Depth 6
+        --> False:
+          Is A2 == 16.17? Node id 33 Node Depth 5
+          --> True:
+            Predict + Leafnode id 68 Leafnode Depth 6
+          --> False:
+            Predict - Leafnode id 67 Leafnode Depth 6
+      --> False:
+        Is A2 == 34.58? Node id 15 Node Depth 4
+        --> True:
+          Predict - Leafnode id 32 Leafnode Depth 5
+        --> False:
+          Predict + Leafnode id 31 Leafnode Depth 5
+Accuracy on test = 0.83
+Train Accuracy 1.0
+*************Tree after pruning*******
+Is A9 == t? Node id 0 Node Depth 0
+--> True:
+  Is A15 >= 444? Node id 2 Node Depth 1
+  --> True:
+    Is A14 == 00167? Node id 6 Node Depth 2
+    --> True:
+      Predict - Leafnode id 14 Leafnode Depth 3
+    --> False:
+      Is A14 == 00252? Node id 13 Node Depth 3
+      --> True:
+        Predict - Leafnode id 28 Leafnode Depth 4
+      --> False:
+        Is A2 == 22.50? Node id 27 Node Depth 4
+        --> True:
+          Predict - Leafnode id 56 Leafnode Depth 5
+        --> False:
+          Predict + Leafnode id 55 Leafnode Depth 5
+  --> False:
+    Is A10 == f? Node id 5 Node Depth 2
+    --> True:
+      Is A3 >= 2.54? Node id 12 Node Depth 3
+      --> True:
+        Predict - Leafnode id 26 Leafnode Depth 4
+      --> False:
+        Is A3 >= 0.5? Node id 25 Node Depth 4
+        --> True:
+          Is A14 == 00260? Node id 52 Node Depth 5
+          --> True:
+            Predict + Leafnode id 106 Leafnode Depth 6
+          --> False:
+            Is A2 == 25.75? Node id 105 Node Depth 6
+            --> True:
+              Predict + Leafnode id 212 Leafnode Depth 7
+            --> False:
+              Is A8 >= 0.835? Node id 211 Node Depth 7
+              --> True:
+                Is A3 >= 1.375? Node id 424 Node Depth 8
+                --> True:
+                  Is A14 == 00422? Node id 850 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1702 Leafnode Depth 10
+                  --> False:
+                    Predict - Leafnode id 1701 Leafnode Depth 10
+                --> False:
+                  Is A14 == 00400? Node id 849 Node Depth 9
+                  --> True:
+                    Predict - Leafnode id 1700 Leafnode Depth 10
+                  --> False:
+                    Is A2 == ?? Node id 1699 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3400 Leafnode Depth 11
+                    --> False:
+                      Predict + Leafnode id 3399 Leafnode Depth 11
+              --> False:
+                Is A14 == 00393? Node id 423 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 848 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 847 Leafnode Depth 9
+        --> False:
+          Predict + Leafnode id 51 Leafnode Depth 5
+    --> False:
+      Is A3 >= 1.415? Node id 11 Node Depth 3
+      --> True:
+        Is A14 == 00300? Node id 24 Node Depth 4
+        --> True:
+          Predict - Leafnode id 50 Leafnode Depth 5
+        --> False:
+          Is A8 >= 0.04? Node id 49 Node Depth 5
+          --> True:
+            Is A11 >= 4? Node id 100 Node Depth 6
+            --> True:
+              Predict + Leafnode id 202 Leafnode Depth 7
+            --> False:
+              Is A11 >= 2? Node id 201 Node Depth 7
+              --> True:
+                Is A3 >= 3.5? Node id 404 Node Depth 8
+                --> True:
+                  Is A3 >= 4.5? Node id 810 Node Depth 9
+                  --> True:
+                    Is A15 >= 38? Node id 1622 Node Depth 10
+                    --> True:
+                      Predict - Leafnode id 3246 Leafnode Depth 11
+                    --> False:
+                      Is A6 == k? Node id 3245 Node Depth 11
+                      --> True:
+                        Predict - Leafnode id 6492 Leafnode Depth 12
+                      --> False:
+                        Predict + Leafnode id 6491 Leafnode Depth 12
+                  --> False:
+                    Predict - Leafnode id 1621 Leafnode Depth 10
+                --> False:
+                  Predict + Leafnode id 809 Leafnode Depth 9
+              --> False:
+                Predict + Leafnode id 403 Leafnode Depth 8
+          --> False:
+            Is A14 == 00000? Node id 99 Node Depth 6
+            --> True:
+              Predict + Leafnode id 200 Leafnode Depth 7
+            --> False:
+              Predict - Leafnode id 199 Leafnode Depth 7
+      --> False:
+        Is A3 >= 1.04? Node id 23 Node Depth 4
+        --> True:
+          Predict - Leafnode id 48 Leafnode Depth 5
+        --> False:
+          Is A12 == f? Node id 47 Node Depth 5
+          --> True:
+            Predict + Leafnode id 96 Leafnode Depth 6
+          --> False:
+            Is A8 >= 1.46? Node id 95 Node Depth 6
+            --> True:
+              Is A14 == 00208? Node id 192 Node Depth 7
+              --> True:
+                Predict - Leafnode id 386 Leafnode Depth 8
+              --> False:
+                Predict + Leafnode id 385 Leafnode Depth 8
+            --> False:
+              Is A15 >= 6? Node id 191 Node Depth 7
+              --> True:
+                Predict + Leafnode id 384 Leafnode Depth 8
+              --> False:
+                Predict - Leafnode id 383 Leafnode Depth 8
+--> False:
+  Is A3 >= 0.17? Node id 1 Node Depth 1
+  --> True:
+    Is A5 == gg? Node id 4 Node Depth 2
+    --> True:
+      Predict + Leafnode id 10 Leafnode Depth 3
+    --> False:
+      Is A6 == x? Node id 9 Node Depth 3
+      --> True:
+        Is A8 >= 2.46? Node id 20 Node Depth 4
+        --> True:
+          Predict + Leafnode id 42 Leafnode Depth 5
+        --> False:
+          Predict - Leafnode id 41 Leafnode Depth 5
+      --> False:
+        Is A14 == 00150? Node id 19 Node Depth 4
+        --> True:
+          Predict + Leafnode id 40 Leafnode Depth 5
+        --> False:
+          Is A14 == 00290? Node id 39 Node Depth 5
+          --> True:
+            Predict + Leafnode id 80 Leafnode Depth 6
+          --> False:
+            Is A2 == 41.50? Node id 79 Node Depth 6
+            --> True:
+              Predict + Leafnode id 160 Leafnode Depth 7
+            --> False:
+              Is A2 == 48.08? Node id 159 Node Depth 7
+              --> True:
+                Is A15 >= 2690? Node id 320 Node Depth 8
+                --> True:
+                  Predict + Leafnode id 642 Leafnode Depth 9
+                --> False:
+                  Predict - Leafnode id 641 Leafnode Depth 9
+              --> False:
+                Is A2 == 33.67? Node id 319 Node Depth 8
+                --> True:
+                  Is A15 >= 44? Node id 640 Node Depth 9
+                  --> True:
+                    Predict + Leafnode id 1282 Leafnode Depth 10
+                  --> False:
+                    Predict - Leafnode id 1281 Leafnode Depth 10
+                --> False:
+                  Predict - Leafnode id 639 Leafnode Depth 9
+  --> False:
+    Is A7 == ff? Node id 3 Node Depth 2
+    --> True:
+      Predict - Leafnode id 8 Leafnode Depth 3
+    --> False:
+      Is A7 == v? Node id 7 Node Depth 3
+      --> True:
+        Is A15 >= 113? Node id 16 Node Depth 4
+        --> True:
+          Is A14 == 00140? Node id 34 Node Depth 5
+          --> True:
+            Predict - Leafnode id 70 Leafnode Depth 6
+          --> False:
+            Predict + Leafnode id 69 Leafnode Depth 6
+        --> False:
+          Is A2 == 16.17? Node id 33 Node Depth 5
+          --> True:
+            Predict + Leafnode id 68 Leafnode Depth 6
+          --> False:
+            Predict - Leafnode id 67 Leafnode Depth 6
+      --> False:
+        Is A2 == 34.58? Node id 15 Node Depth 4
+        --> True:
+          Predict - Leafnode id 32 Leafnode Depth 5
+        --> False:
+          Predict + Leafnode id 31 Leafnode Depth 5
+Accuracy on test = 0.86
+Habils-MacBook-Pro:Desktop Habil$ 
